@@ -1,56 +1,12 @@
 
 import { useEffect, useState } from 'react';
-import data from './data';
+import data from './data.json';
 import './App.css';
 import Session from './components/Session';
 
 
 function App() {
-  // const data = {
-  //   1 : {
-  //     "__participants" : 10,
-  //     "wsdl":{
-  //       "outcomes" : ["sess1_wsdl_out_1", "sess1_wsdl_out_2"],
-  //       "challenges" : ["sess1_wsdl_chal_1", 'sess1_wsdl_chal_2'],
-  //       "frequency" : {
-  //         outcomes: 10,
-  //         challenges: 15
-  //       }
-  //     },
-  //     "soap" : {
-  //       "outcomes": ["sess1_soap_out_1","sess1_soap_out_2"],
-  //       "challenges": ["sess1_soap_chal_1", "sess1_soap_chal_2"],
-  //       "frequency" : {
-  //         outcomes: 12,
-  //         challenges: 14
-  //       }
 
-  //     },
-  //   },
-  //   2 : {
-  //     "__participants" : 15,
-  //     "wsdl":{
-  //       "outcomes" : ["sess2_wsdl_out_1", "sess2_wsdl_out_2"],
-  //       "challenges" : ["sess2_wsdl_chal_1", 'sess2_wsdl_chal_2'],
-  //       "frequency" : {
-  //         outcomes: 12,
-  //         challenges: 22
-  //       }
-
-  //     },
-  //     "soap" : {
-  //       "outcomes": ["sess2_soap_out_1","sess2_soap_out_2"],
-  //       "challenges": ["sess2_soap_chal_1", "sess2_soap_chal_2"],
-  //       "frequency" : {
-  //         outcomes: 11,
-  //         challenges: 16
-  //       }
-
-  //     },
-  //   }
-  // }
-
-  // const data = data;
   const sessions = Object.keys(data);
   const [sessId, setSessId] = useState(1);
   const [topics, setTopics] = useState(Object.keys(data[sessId]).slice(1));
