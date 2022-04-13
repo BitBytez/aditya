@@ -7,48 +7,49 @@ import {Bar} from 'react-chartjs-2';
 function Block(props){
 	// var topics = Object.keys(props.content);
 	// topics.shift();	
-	var freq = topics.map(item => props.content[item].frequency[props.name]);
 
+	const [currTopic, setCurrTopic] = useState(props.topics[0]);
+	useEffect(() => {
+		if(!props.topics.includes(currTopic))
+			setCurrTopic(props.topics[0]);
+	}, [props.topics]);
 
-	const topicClicked = (item) => {
-		setCurrTopic(item);
-	}  
 	const buttonStyle={
 		margin:10, 
 	}
 
 	const data = {
-		labels: topics,
+		labels: props.topics,
 		datasets: [
 			{
 				label: 'Frequency',
 				backgroundColor: 'rgba(75,192,192,1)',
 				borderColor: 'rgba(0,0,0,1)',
 				borderWidth: 1,
-				data: freq
+				data: props.topics.map(item => props.content[item].frequency[props.name])
 			}
 		]
 	}
-	
-	return (
-		<div style={{display:"flex", flexDirection:'row', justifyContent:'space-between'}}>
-			<div>
-			<h3> {props.title} </h3>
-			{topics.map((item) => {
-				return(
-					<button style={buttonStyle} key={item} name={item} onClick={() => topicClicked(item)}> {item} </button>
-				)
-			})}
-			<p> {props.topics[0]} </p>
+	const renderList = (props, currTopic) => {
+		if(props.content[currTopic]){
+		return (
 			<ul>
 			{	
-				props.content[props.topics[0]][props.name].map((item, index) => {
+				props.content[currTopic][props.name].map((item, index) => {
 					return <li key={Math.random() * 1000000}> {item} </li>;
 				})
 			}
 			</ul>
-			</div>
-			<div style={{marginRight: 100, maxWidth: "1000px"}}>
+			)
+		}
+		else{
+			return <div></div>;
+		}
+	}
+
+	const renderChart = () => {
+		return (
+			<div style={{marginRight: 100, width:500}}>
 				<h5> This is a Chart</h5>
 				<Bar
 			data={data}
@@ -77,6 +78,23 @@ function Block(props){
 			}}
         />
 			</div>
+		)
+	}
+
+	return (
+		<div style={{display:"flex", flexDirection:'row', justifyContent:'space-between'}}>
+			<div>
+			<h3> {props.title} </h3>
+			{props.topics.map((item) => {
+				// console.log(props.content[item][props.name].length , props.content[item][props.name].length  === 0);
+				return(
+					<button style={buttonStyle} key={item} name={item} onClick={() => setCurrTopic(item)} disabled={props.content[item][props.name].length  === 0}> {item} </button>
+				)
+			})}
+			<h4> {currTopic} </h4>
+			{renderList(props, currTopic)}
+			</div>
+			{renderChart()}
 		</div>
     )
 

@@ -70,7 +70,7 @@ function App() {
         topics={topics}
 
       />
-      <p> {String(topics)} </p>
+      {/* <p> {String(topics)} </p> */}
       <div>
         <button style={{margin: 20}} onClick={() => handleButtonClick(-1)} disabled={sessId == sessions[0]}> Previous </button>
         <button style={{margin: 20}} onClick={() => handleButtonClick(1)} disabled={sessId == sessions.at(-1)}> Next </button>

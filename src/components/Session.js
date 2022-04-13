@@ -11,11 +11,12 @@ function Session(props){
 							content={props.content}
 							topics={props.topics}
 							/>
-			{/*
+			
 			<Block  name="challenges" 
 							title="Challenges" 
 							content={props.content}
-							/> */}
+							topics={props.topics}
+							/>
 		</div>
 	)
 }
