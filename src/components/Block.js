@@ -9,11 +9,18 @@ function Block(props){
 	// topics.shift();	
 
 	const [currTopic, setCurrTopic] = useState(props.topics[0]);
+	const topics = props.topics;
+	// console.log(topics);
 	useEffect(() => {
 		if(!props.topics.includes(currTopic))
-			setCurrTopic(props.topics[0]);
+		setCurrTopic(props.topics[0]);
+		topics.sort((a,b) => {return props.content[b][props.name].length - props.content[a][props.name].length});
 	}, [props.topics]);
-
+	// console.log(props.content);
+	// for(var elem of topics){
+	// 	console.log(elem, ":", props.content[elem])
+		
+	// }
 	const buttonStyle={
 		margin:10, 
 	}
@@ -85,7 +92,8 @@ function Block(props){
 		<div style={{display:"flex", flexDirection:'row', justifyContent:'space-between'}}>
 			<div>
 			<h3> {props.title} </h3>
-			{props.topics.map((item) => {
+			
+			{topics.map((item) => {
 				// console.log(props.content[item][props.name].length , props.content[item][props.name].length  === 0);
 				return(
 					<button style={buttonStyle} key={item} name={item} onClick={() => setCurrTopic(item)} disabled={props.content[item][props.name].length  === 0}> {item} </button>

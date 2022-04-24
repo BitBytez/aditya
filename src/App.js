@@ -9,11 +9,11 @@ function App() {
 
   const sessions = Object.keys(data);
   const [sessId, setSessId] = useState(1);
-  const [topics, setTopics] = useState(Object.keys(data[sessId]).slice(1));
+  const [topics, setTopics] = useState(Object.keys(data[sessId]).filter(x => ! x.startsWith("__")));
 
   const handleButtonClick = (inc) => {
     setSessId((prev) => {
-      setTopics(Object.keys(data[prev + inc]).slice(1));
+      setTopics(Object.keys(data[prev + inc]).filter(x => ! x.startsWith("__")));
       return prev + inc;
     });
   }
