@@ -7,9 +7,9 @@ import {Bar} from 'react-chartjs-2';
 function Block(props){
 	// var topics = Object.keys(props.content);
 	// topics.shift();	
-
 	const [currTopic, setCurrTopic] = useState(props.topics[0]);
 	const topics = props.topics;
+	// console.log(props.name, " ::: ", topics);
 	// console.log(topics);
 	useEffect(() => {
 		if(!props.topics.includes(currTopic))
@@ -26,14 +26,15 @@ function Block(props){
 	}
 
 	const data = {
-		labels: props.topics,
+		labels: topics,
 		datasets: [
 			{
 				label: 'Frequency',
 				backgroundColor: 'rgba(75,192,192,1)',
 				borderColor: 'rgba(0,0,0,1)',
 				borderWidth: 1,
-				data: props.topics.map(item => props.content[item].frequency[props.name])
+				// data: topics.map(item => props.content[item].frequency[props.name])
+				data: props.freqs
 			}
 		]
 	}

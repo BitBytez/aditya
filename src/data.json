@@ -10,8 +10,8 @@
                 "WSDL topic"
             ],
             "frequency": {
-                "challenges": 3,
-                "outcomes": 4
+                "challenges": 2,
+                "outcomes": 2
             }
         },
         "soa": {
@@ -25,8 +25,8 @@
                 "I found SOA interesting."
             ],
             "frequency": {
-                "challenges": 5,
-                "outcomes": 13
+                "challenges": 1,
+                "outcomes": 4
             }
         },
         "soap": {
@@ -45,8 +45,8 @@
                 "SOAP usage scenario and SOAP message components"
             ],
             "frequency": {
-                "challenges": 4,
-                "outcomes": 9
+                "challenges": 3,
+                "outcomes": 7
             }
         },
         "web_service": {
@@ -64,8 +64,8 @@
                 "Understanding what Web Services is. I always misquoted it."
             ],
             "frequency": {
-                "challenges": 0,
-                "outcomes": 0
+                "challenges": 3,
+                "outcomes": 6
             }
         },
         "interface": {
@@ -91,8 +91,8 @@
                 "The most interesting was just learning the principles of SOAP Web services. I developed WCF and REST Web services in the past for work or school but know the ins and out makes everything click a little better for me."
             ],
             "frequency": {
-                "challenges": 2,
-                "outcomes": 9
+                "challenges": 1,
+                "outcomes": 4
             }
         },
         "plugin": {
@@ -136,8 +136,8 @@
                 "The presentation easily explained what web services are and the use cases. I like the detailed explanation of Simple Object Access Protocol (SOAP). When I tried to understand SOAP architecture in the past, it was not successful. However, your presentation's SOAP use scenario, components, and example helped me to fully understand what is SOAP architecture. Another interesting concept was that web services are a type of API (I did not aware of that before.)"
             ],
             "frequency": {
-                "challenges": 1,
-                "outcomes": 5
+                "challenges": 0,
+                "outcomes": 2
             }
         },
         "xml": {
@@ -147,18 +147,8 @@
                 "For the first time, I've begun to understand the relationship and differences between REST and SOAP, that they conceptually provide a comparable function within programming, but that REST communicates largely through the URL while SOAP uses XML within a SOAP envelope, within HTTP. I also began to get some understanding of SOAP. These understanding were largely from external reading necessary to understand the slides."
             ],
             "frequency": {
-                "challenges": 1,
-                "outcomes": 2
-            }
-        },
-        "soap_envelope": {
-            "challenges": [],
-            "outcomes": [
-                "For the first time, I've begun to understand the relationship and differences between REST and SOAP, that they conceptually provide a comparable function within programming, but that REST communicates largely through the URL while SOAP uses XML within a SOAP envelope, within HTTP. I also began to get some understanding of SOAP. These understanding were largely from external reading necessary to understand the slides."
-            ],
-            "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 2
             }
         },
         "http": {
@@ -171,17 +161,27 @@
                 "outcomes": 1
             }
         },
-        "api": {
+        "soap_envelope": {
+            "challenges": [],
+            "outcomes": [
+                "For the first time, I've begun to understand the relationship and differences between REST and SOAP, that they conceptually provide a comparable function within programming, but that REST communicates largely through the URL while SOAP uses XML within a SOAP envelope, within HTTP. I also began to get some understanding of SOAP. These understanding were largely from external reading necessary to understand the slides."
+            ],
+            "frequency": {
+                "challenges": 0,
+                "outcomes": 1
+            }
+        },
+        "object": {
             "challenges": [],
             "outcomes": [
                 "The presentation easily explained what web services are and the use cases. I like the detailed explanation of Simple Object Access Protocol (SOAP). When I tried to understand SOAP architecture in the past, it was not successful. However, your presentation's SOAP use scenario, components, and example helped me to fully understand what is SOAP architecture. Another interesting concept was that web services are a type of API (I did not aware of that before.)"
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 3
+                "outcomes": 1
             }
         },
-        "object": {
+        "api": {
             "challenges": [],
             "outcomes": [
                 "The presentation easily explained what web services are and the use cases. I like the detailed explanation of Simple Object Access Protocol (SOAP). When I tried to understand SOAP architecture in the past, it was not successful. However, your presentation's SOAP use scenario, components, and example helped me to fully understand what is SOAP architecture. Another interesting concept was that web services are a type of API (I did not aware of that before.)"
@@ -198,7 +198,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 1
             }
         },
         "wcf": {
@@ -228,7 +228,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 1
             }
         },
         "website": {
@@ -267,11 +267,111 @@
                 "The most interesting concept I learned was about the breakdown of SOAP structure. I also found the WSDL to be interesting, the idea that the service can give consumers a definition of itself and how to use it."
             ],
             "frequency": {
-                "challenges": 7,
-                "outcomes": 12
+                "challenges": 0,
+                "outcomes": 1
             }
         },
-        "__participants": 20
+        "__participants": 20,
+        "challenge_topics": [
+            "soap",
+            "web_service",
+            "wsdl",
+            "soa",
+            "interface",
+            "rest",
+            "plugin",
+            "application",
+            "achitecture",
+            "architecture",
+            "xml",
+            "http",
+            "soap_envelope",
+            "object",
+            "api",
+            "rest_service",
+            "wcf",
+            "websocket",
+            "simple_web_page",
+            "website",
+            "json",
+            "javascript",
+            "service"
+        ],
+        "outcome_topics": [
+            "soap",
+            "web_service",
+            "soa",
+            "rest",
+            "application",
+            "wsdl",
+            "architecture",
+            "xml",
+            "interface",
+            "http",
+            "soap_envelope",
+            "object",
+            "api",
+            "rest_service",
+            "wcf",
+            "websocket",
+            "simple_web_page",
+            "website",
+            "json",
+            "javascript",
+            "service",
+            "plugin",
+            "achitecture"
+        ],
+        "challenge_topics_freq": [
+            3,
+            3,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "outcome_topics_freq": [
+            7,
+            6,
+            4,
+            4,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+        ]
     },
     "2": {
         "javascript": {
@@ -292,18 +392,8 @@
                 "JavaScript. It's not a language that I have used before."
             ],
             "frequency": {
-                "challenges": 4,
-                "outcomes": 10
-            }
-        },
-        "json": {
-            "challenges": [
-                "I don't really see anything challenging in here, but I think it will be good to exercise with JSON object and their functions."
-            ],
-            "outcomes": [],
-            "frequency": {
-                "challenges": 2,
-                "outcomes": 1
+                "challenges": 3,
+                "outcomes": 9
             }
         },
         "object": {
@@ -316,8 +406,18 @@
                 "I often have used JavaSript for developing the frontend, but I did not have a chance to look over the history of the language. The history section was interesting to me. Also, It is very interesting to know there is no official documentation about JavaScript. Also, I thought I know much about JavaScript features, but the lectures introduce features that I did not know before (such as setting the default value of a function, setting a function variable in an object, etc)."
             ],
             "frequency": {
-                "challenges": 3,
+                "challenges": 2,
                 "outcomes": 2
+            }
+        },
+        "json": {
+            "challenges": [
+                "I don't really see anything challenging in here, but I think it will be good to exercise with JSON object and their functions."
+            ],
+            "outcomes": [],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 0
             }
         },
         "j": {
@@ -328,8 +428,18 @@
                 "Gained a more conceptual (and therefore simpler) view of JS. I knew it had many elements of other languages, but there are only a few factors in the language itself that make it different. I feel more comfortable with my knowledge of it."
             ],
             "frequency": {
-                "challenges": 7,
-                "outcomes": 12
+                "challenges": 1,
+                "outcomes": 1
+            }
+        },
+        "set": {
+            "challenges": [
+                "Set and Map Collection"
+            ],
+            "outcomes": [],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 0
             }
         },
         "map": {
@@ -340,8 +450,8 @@
                 "Both Map and Set collection is are new concepts to me."
             ],
             "frequency": {
-                "challenges": 2,
-                "outcomes": 2
+                "challenges": 1,
+                "outcomes": 1
             }
         },
         "collection": {
@@ -351,17 +461,7 @@
             "outcomes": [],
             "frequency": {
                 "challenges": 1,
-                "outcomes": 3
-            }
-        },
-        "set": {
-            "challenges": [
-                "Set and Map Collection"
-            ],
-            "outcomes": [],
-            "frequency": {
-                "challenges": 1,
-                "outcomes": 4
+                "outcomes": 0
             }
         },
         "closure": {
@@ -383,8 +483,8 @@
             ],
             "outcomes": [],
             "frequency": {
-                "challenges": 2,
-                "outcomes": 8
+                "challenges": 1,
+                "outcomes": 0
             }
         },
         "soap": {
@@ -404,7 +504,7 @@
             "outcomes": [],
             "frequency": {
                 "challenges": 1,
-                "outcomes": 1
+                "outcomes": 0
             }
         },
         "dom": {
@@ -424,7 +524,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 2
+                "outcomes": 1
             }
         },
         "set_collection": {
@@ -435,7 +535,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 2
             }
         },
         "variable": {
@@ -444,8 +544,8 @@
                 "I often have used JavaSript for developing the frontend, but I did not have a chance to look over the history of the language. The history section was interesting to me. Also, It is very interesting to know there is no official documentation about JavaScript. Also, I thought I know much about JavaScript features, but the lectures introduce features that I did not know before (such as setting the default value of a function, setting a function variable in an object, etc)."
             ],
             "frequency": {
-                "challenges": 1,
-                "outcomes": 3
+                "challenges": 0,
+                "outcomes": 1
             }
         },
         "web_service": {
@@ -455,10 +555,82 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 1
             }
         },
-        "__participants": 18
+        "__participants": 18,
+        "challenge_topics": [
+            "javascript",
+            "object",
+            "json",
+            "j",
+            "set",
+            "map",
+            "collection",
+            "closure",
+            "rest",
+            "soap",
+            "syntax",
+            "dom",
+            "ecmascript",
+            "set_collection",
+            "variable",
+            "web_service"
+        ],
+        "outcome_topics": [
+            "javascript",
+            "object",
+            "closure",
+            "set_collection",
+            "j",
+            "map",
+            "dom",
+            "ecmascript",
+            "variable",
+            "web_service",
+            "json",
+            "set",
+            "collection",
+            "rest",
+            "soap",
+            "syntax"
+        ],
+        "challenge_topics_freq": [
+            3,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "outcome_topics_freq": [
+            9,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "3": {
         "javascript": {
@@ -510,8 +682,8 @@
                 "Closures and Stack frames in the context of Javascript."
             ],
             "frequency": {
-                "challenges": 0,
-                "outcomes": 0
+                "challenges": 2,
+                "outcomes": 1
             }
         },
         "couple": {
@@ -525,11 +697,11 @@
                 "Great to know what a good JavaScript project design is about. I used to follow other developers' architectures but did not strongly concern about how to make low coupling and high cohesion in coding. Learning about closure and class was helpful since I was not aware of the features in JavaScript."
             ],
             "frequency": {
-                "challenges": 0,
-                "outcomes": 0
+                "challenges": 1,
+                "outcomes": 4
             }
         },
-        "object": {
+        "iife": {
             "challenges": [],
             "outcomes": [
                 "Classes are my favorite thing as a C# .NET developer. I found IIFE interesting as well, we use those in our database often in override functions to use the base and then write on the returned object."
@@ -539,7 +711,7 @@
                 "outcomes": 1
             }
         },
-        "iife": {
+        "object": {
             "challenges": [],
             "outcomes": [
                 "Classes are my favorite thing as a C# .NET developer. I found IIFE interesting as well, we use those in our database often in override functions to use the base and then write on the returned object."
@@ -556,13 +728,62 @@
                 "That the fact that JS is relatively unstructured results in code that is difficult to understand."
             ],
             "frequency": {
-                "challenges": 4,
-                "outcomes": 7
+                "challenges": 0,
+                "outcomes": 2
             }
         },
-        "__participants": 15
+        "__participants": 15,
+        "challenge_topics": [
+            "closure",
+            "javascript",
+            "stack_frame",
+            "couple",
+            "iife",
+            "object",
+            "j"
+        ],
+        "outcome_topics": [
+            "closure",
+            "couple",
+            "javascript",
+            "j",
+            "stack_frame",
+            "iife",
+            "object"
+        ],
+        "challenge_topics_freq": [
+            8,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0
+        ],
+        "outcome_topics_freq": [
+            6,
+            4,
+            3,
+            2,
+            1,
+            1,
+            1
+        ]
     },
     "4": {
+        "node_package": {
+            "challenges": [
+                "Node package manager"
+            ],
+            "outcomes": [
+                "Node Package",
+                "None of these were new topics but node package manager is super helpful in my day to day work life."
+            ],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 2
+            }
+        },
         "manager": {
             "challenges": [
                 "Node package manager"
@@ -573,19 +794,6 @@
             "frequency": {
                 "challenges": 1,
                 "outcomes": 1
-            }
-        },
-        "node_package": {
-            "challenges": [
-                "Node package manager"
-            ],
-            "outcomes": [
-                "Node Package",
-                "None of these were new topics but node package manager is super helpful in my day to day work life."
-            ],
-            "frequency": {
-                "challenges": 0,
-                "outcomes": 0
             }
         },
         "nodejs": {
@@ -607,7 +815,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 2
+                "outcomes": 1
             }
         },
         "version_control": {
@@ -617,7 +825,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 1
             }
         },
         "npm": {
@@ -647,7 +855,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 2
+                "outcomes": 1
             }
         },
         "micro_api": {
@@ -657,7 +865,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 1
             }
         },
         "node_js": {
@@ -667,7 +875,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 1
             }
         },
         "git": {
@@ -677,10 +885,62 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 4
+                "outcomes": 1
             }
         },
-        "__participants": 14
+        "__participants": 14,
+        "challenge_topics": [
+            "node_package",
+            "manager",
+            "nodejs",
+            "ide",
+            "version_control",
+            "npm",
+            "client",
+            "javascript",
+            "micro_api",
+            "node_js",
+            "git"
+        ],
+        "outcome_topics": [
+            "node_package",
+            "manager",
+            "nodejs",
+            "ide",
+            "version_control",
+            "npm",
+            "client",
+            "javascript",
+            "micro_api",
+            "node_js",
+            "git"
+        ],
+        "challenge_topics_freq": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "outcome_topics_freq": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
     },
     "5": {
         "wsdl": {
@@ -692,21 +952,17 @@
                 "One of the nice things I noticed what the various libraries that are available to use WSDL files."
             ],
             "frequency": {
-                "challenges": 2,
-                "outcomes": 3
+                "challenges": 1,
+                "outcomes": 2
             }
         },
-        "web_service": {
+        "wcf": {
             "challenges": [
-                "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs",
-                "Creating the web service and all of its components"
+                "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs"
             ],
-            "outcomes": [
-                "web service provider generation",
-                "The entire development of a web service provider"
-            ],
+            "outcomes": [],
             "frequency": {
-                "challenges": 0,
+                "challenges": 1,
                 "outcomes": 0
             }
         },
@@ -721,14 +977,18 @@
                 "outcomes": 0
             }
         },
-        "wcf": {
+        "web_service": {
             "challenges": [
-                "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs"
+                "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs",
+                "Creating the web service and all of its components"
             ],
-            "outcomes": [],
+            "outcomes": [
+                "web service provider generation",
+                "The entire development of a web service provider"
+            ],
             "frequency": {
-                "challenges": 1,
-                "outcomes": 0
+                "challenges": 2,
+                "outcomes": 2
             }
         },
         "rest": {
@@ -738,7 +998,7 @@
             "outcomes": [],
             "frequency": {
                 "challenges": 1,
-                "outcomes": 2
+                "outcomes": 0
             }
         },
         "client": {
@@ -761,7 +1021,43 @@
                 "outcomes": 0
             }
         },
-        "__participants": 8
+        "__participants": 8,
+        "challenge_topics": [
+            "soap",
+            "web_service",
+            "wsdl",
+            "wcf",
+            "rest",
+            "client",
+            "chrome"
+        ],
+        "outcome_topics": [
+            "wsdl",
+            "web_service",
+            "wcf",
+            "soap",
+            "rest",
+            "client",
+            "chrome"
+        ],
+        "challenge_topics_freq": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "outcome_topics_freq": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     },
     "6": {
         "soap": {
@@ -781,7 +1077,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 2
+                "outcomes": 1
             }
         },
         "service": {
@@ -791,7 +1087,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 3
+                "outcomes": 1
             }
         },
         "web_service": {
@@ -802,10 +1098,34 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 2
             }
         },
-        "__participants": 6
+        "__participants": 6,
+        "challenge_topics": [
+            "soap",
+            "wsdl",
+            "service",
+            "web_service"
+        ],
+        "outcome_topics": [
+            "web_service",
+            "soap",
+            "wsdl",
+            "service"
+        ],
+        "challenge_topics_freq": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "outcome_topics_freq": [
+            2,
+            1,
+            1,
+            1
+        ]
     },
     "7": {
         "application": {
@@ -831,7 +1151,7 @@
             ],
             "frequency": {
                 "challenges": 1,
-                "outcomes": 4
+                "outcomes": 2
             }
         },
         "soap": {
@@ -862,7 +1182,7 @@
             ],
             "frequency": {
                 "challenges": 0,
-                "outcomes": 0
+                "outcomes": 2
             }
         },
         "architecture": {
@@ -875,7 +1195,39 @@
                 "outcomes": 1
             }
         },
-        "__participants": 5
+        "__participants": 5,
+        "challenge_topics": [
+            "application",
+            "rest",
+            "soap",
+            "client",
+            "web_service",
+            "architecture"
+        ],
+        "outcome_topics": [
+            "rest",
+            "web_service",
+            "application",
+            "soap",
+            "client",
+            "architecture"
+        ],
+        "challenge_topics_freq": [
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "outcome_topics_freq": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+        ]
     },
     "8": {
         "soa": {
@@ -926,7 +1278,31 @@
                 "outcomes": 1
             }
         },
-        "__participants": 4
+        "__participants": 4,
+        "challenge_topics": [
+            "soa",
+            "architecture",
+            "microservice",
+            "application"
+        ],
+        "outcome_topics": [
+            "microservice",
+            "architecture",
+            "application",
+            "soa"
+        ],
+        "challenge_topics_freq": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "outcome_topics_freq": [
+            4,
+            2,
+            1,
+            0
+        ]
     },
     "9": {
         "microservice": {
@@ -942,6 +1318,18 @@
                 "outcomes": 2
             }
         },
-        "__participants": 3
+        "__participants": 3,
+        "challenge_topics": [
+            "microservice"
+        ],
+        "outcome_topics": [
+            "microservice"
+        ],
+        "challenge_topics_freq": [
+            1
+        ],
+        "outcome_topics_freq": [
+            2
+        ]
     }
 }
