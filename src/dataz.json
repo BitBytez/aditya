@@ -29,25 +29,6 @@
                 "outcomes": 4
             }
         },
-        "web_service": {
-            "challenges": [
-                "WSDL and SOAP based web services",
-                "Right now, these ideas are almost completely abstract. For example, I searched for \"10 examples of web service implementation\" to get a better understanding of what to expect, complexity of the necessary code, whether systems are in place to create the interface without having to do the coding myself. The closest I could find was a list with a paragraph describing the functionality of the services, which helped. What I would have to do is still a bit of a mystery.",
-                "The concepts weren't really challenging to understand but learning about SOAP Web Service was new and it took more time to understand as opposed to the other concepts discussed in the chapter."
-            ],
-            "outcomes": [
-                "Service Oriented Architecture (SOA) is a new concept for me. The Web Services portion really helped me understand SOA as well.",
-                "The presentation easily explained what web services are and the use cases. I like the detailed explanation of Simple Object Access Protocol (SOAP). When I tried to understand SOAP architecture in the past, it was not successful. However, your presentation's SOAP use scenario, components, and example helped me to fully understand what is SOAP architecture. Another interesting concept was that web services are a type of API (I did not aware of that before.)",
-                "Web services. SOAP and REST services and difference between them.",
-                "The most interesting was just learning the principles of SOAP Web services. I developed WCF and REST Web services in the past for work or school but know the ins and out makes everything click a little better for me.",
-                "The most interesting concept I learned in this lecture was the difference between a simple web page or website as compared to a web service. When we are looking at a web page, we are interacting with a user interface, however, for a web service, it is an Application Programming Interface (API). If we are using a browser, web pages use HTML to display information, while a web service uses JSON. In practice, however, web services are used by applications instead of browsers.",
-                "Understanding what Web Services is. I always misquoted it."
-            ],
-            "frequency": {
-                "challenges": 3,
-                "outcomes": 6
-            }
-        },
         "soap": {
             "challenges": [
                 "WSDL and SOAP based web services",
@@ -66,6 +47,25 @@
             "frequency": {
                 "challenges": 3,
                 "outcomes": 7
+            }
+        },
+        "web_service": {
+            "challenges": [
+                "WSDL and SOAP based web services",
+                "Right now, these ideas are almost completely abstract. For example, I searched for \"10 examples of web service implementation\" to get a better understanding of what to expect, complexity of the necessary code, whether systems are in place to create the interface without having to do the coding myself. The closest I could find was a list with a paragraph describing the functionality of the services, which helped. What I would have to do is still a bit of a mystery.",
+                "The concepts weren't really challenging to understand but learning about SOAP Web Service was new and it took more time to understand as opposed to the other concepts discussed in the chapter."
+            ],
+            "outcomes": [
+                "Service Oriented Architecture (SOA) is a new concept for me. The Web Services portion really helped me understand SOA as well.",
+                "The presentation easily explained what web services are and the use cases. I like the detailed explanation of Simple Object Access Protocol (SOAP). When I tried to understand SOAP architecture in the past, it was not successful. However, your presentation's SOAP use scenario, components, and example helped me to fully understand what is SOAP architecture. Another interesting concept was that web services are a type of API (I did not aware of that before.)",
+                "Web services. SOAP and REST services and difference between them.",
+                "The most interesting was just learning the principles of SOAP Web services. I developed WCF and REST Web services in the past for work or school but know the ins and out makes everything click a little better for me.",
+                "The most interesting concept I learned in this lecture was the difference between a simple web page or website as compared to a web service. When we are looking at a web page, we are interacting with a user interface, however, for a web service, it is an Application Programming Interface (API). If we are using a browser, web pages use HTML to display information, while a web service uses JSON. In practice, however, web services are used by applications instead of browsers.",
+                "Understanding what Web Services is. I always misquoted it."
+            ],
+            "frequency": {
+                "challenges": 3,
+                "outcomes": 6
             }
         },
         "interface": {
@@ -151,7 +151,7 @@
                 "outcomes": 2
             }
         },
-        "soap_envelope": {
+        "http": {
             "challenges": [],
             "outcomes": [
                 "For the first time, I've begun to understand the relationship and differences between REST and SOAP, that they conceptually provide a comparable function within programming, but that REST communicates largely through the URL while SOAP uses XML within a SOAP envelope, within HTTP. I also began to get some understanding of SOAP. These understanding were largely from external reading necessary to understand the slides."
@@ -161,7 +161,7 @@
                 "outcomes": 1
             }
         },
-        "http": {
+        "soap_envelope": {
             "challenges": [],
             "outcomes": [
                 "For the first time, I've begun to understand the relationship and differences between REST and SOAP, that they conceptually provide a comparable function within programming, but that REST communicates largely through the URL while SOAP uses XML within a SOAP envelope, within HTTP. I also began to get some understanding of SOAP. These understanding were largely from external reading necessary to understand the slides."
@@ -221,7 +221,7 @@
                 "outcomes": 1
             }
         },
-        "website": {
+        "simple_web_page": {
             "challenges": [],
             "outcomes": [
                 "The most interesting concept I learned in this lecture was the difference between a simple web page or website as compared to a web service. When we are looking at a web page, we are interacting with a user interface, however, for a web service, it is an Application Programming Interface (API). If we are using a browser, web pages use HTML to display information, while a web service uses JSON. In practice, however, web services are used by applications instead of browsers."
@@ -231,7 +231,7 @@
                 "outcomes": 1
             }
         },
-        "simple_web_page": {
+        "website": {
             "challenges": [],
             "outcomes": [
                 "The most interesting concept I learned in this lecture was the difference between a simple web page or website as compared to a web service. When we are looking at a web page, we are interacting with a user interface, however, for a web service, it is an Application Programming Interface (API). If we are using a browser, web pages use HTML to display information, while a web service uses JSON. In practice, however, web services are used by applications instead of browsers."
@@ -273,8 +273,8 @@
         },
         "__participants": 20,
         "challenge_topics": [
-            "web_service",
             "soap",
+            "web_service",
             "wsdl",
             "soa",
             "interface",
@@ -284,15 +284,15 @@
             "achitecture",
             "architecture",
             "xml",
-            "soap_envelope",
             "http",
+            "soap_envelope",
             "object",
             "api",
             "rest_service",
             "wcf",
             "websocket",
-            "website",
             "simple_web_page",
+            "website",
             "json",
             "javascript",
             "service"
@@ -307,15 +307,15 @@
             "architecture",
             "xml",
             "interface",
-            "soap_envelope",
             "http",
+            "soap_envelope",
             "object",
             "api",
             "rest_service",
             "wcf",
             "websocket",
-            "website",
             "simple_web_page",
+            "website",
             "json",
             "javascript",
             "service",
@@ -396,16 +396,6 @@
                 "outcomes": 9
             }
         },
-        "json": {
-            "challenges": [
-                "I don't really see anything challenging in here, but I think it will be good to exercise with JSON object and their functions."
-            ],
-            "outcomes": [],
-            "frequency": {
-                "challenges": 1,
-                "outcomes": 0
-            }
-        },
         "object": {
             "challenges": [
                 "I don't really see anything challenging in here, but I think it will be good to exercise with JSON object and their functions.",
@@ -420,17 +410,36 @@
                 "outcomes": 2
             }
         },
-        "js": {
+        "json": {
+            "challenges": [
+                "I don't really see anything challenging in here, but I think it will be good to exercise with JSON object and their functions."
+            ],
+            "outcomes": [],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 0
+            }
+        },
+        "j": {
             "challenges": [
                 "Yet to find out. I need to go over the lectures for more understanding, but so far, the JS concept is great."
             ],
             "outcomes": [
-                "Gained a more conceptual (and therefore simpler) view of JS. I knew it had many elements of other languages, but there are only a few factors in the language itself that make it different. I feel more comfortable with my knowledge of it.",
-                "The introduction of JS and the various associated concept areas like DOM. Great to learn more about JS syntax and symbols. Looking at the progress of JS from 1995, it is most likely to survive for a long period of time."
+                "Gained a more conceptual (and therefore simpler) view of JS. I knew it had many elements of other languages, but there are only a few factors in the language itself that make it different. I feel more comfortable with my knowledge of it."
             ],
             "frequency": {
                 "challenges": 1,
-                "outcomes": 2
+                "outcomes": 1
+            }
+        },
+        "set": {
+            "challenges": [
+                "Set and Map Collection"
+            ],
+            "outcomes": [],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 0
             }
         },
         "map": {
@@ -455,16 +464,6 @@
                 "outcomes": 0
             }
         },
-        "set": {
-            "challenges": [
-                "Set and Map Collection"
-            ],
-            "outcomes": [],
-            "frequency": {
-                "challenges": 1,
-                "outcomes": 0
-            }
-        },
         "closure": {
             "challenges": [
                 "Closures topic"
@@ -478,7 +477,7 @@
                 "outcomes": 2
             }
         },
-        "soap": {
+        "rest": {
             "challenges": [
                 "I struggled to understand why SOAP(complex, slow, less efficient, hard to implement) is being discussed when there is REST(popular, fast, efficient, and easy) but after doing little research I found that SOAP is more Secure and has a use case in financial transactions."
             ],
@@ -488,7 +487,7 @@
                 "outcomes": 0
             }
         },
-        "rest": {
+        "soap": {
             "challenges": [
                 "I struggled to understand why SOAP(complex, slow, less efficient, hard to implement) is being discussed when there is REST(popular, fast, efficient, and easy) but after doing little research I found that SOAP is more Secure and has a use case in financial transactions."
             ],
@@ -564,13 +563,13 @@
             "javascript",
             "object",
             "json",
-            "js",
+            "j",
+            "set",
             "map",
             "collection",
-            "set",
             "closure",
-            "soap",
             "rest",
+            "soap",
             "syntax",
             "dom",
             "ecmascript",
@@ -581,19 +580,19 @@
         "outcome_topics": [
             "javascript",
             "object",
-            "js",
             "closure",
             "set_collection",
+            "j",
             "map",
             "dom",
             "ecmascript",
             "variable",
             "web_service",
             "json",
-            "collection",
             "set",
-            "soap",
+            "collection",
             "rest",
+            "soap",
             "syntax"
         ],
         "challenge_topics_freq": [
@@ -619,7 +618,7 @@
             2,
             2,
             2,
-            2,
+            1,
             1,
             1,
             1,
@@ -702,16 +701,6 @@
                 "outcomes": 4
             }
         },
-        "object": {
-            "challenges": [],
-            "outcomes": [
-                "Classes are my favorite thing as a C# .NET developer. I found IIFE interesting as well, we use those in our database often in override functions to use the base and then write on the returned object."
-            ],
-            "frequency": {
-                "challenges": 0,
-                "outcomes": 1
-            }
-        },
         "iife": {
             "challenges": [],
             "outcomes": [
@@ -722,7 +711,17 @@
                 "outcomes": 1
             }
         },
-        "js": {
+        "object": {
+            "challenges": [],
+            "outcomes": [
+                "Classes are my favorite thing as a C# .NET developer. I found IIFE interesting as well, we use those in our database often in override functions to use the base and then write on the returned object."
+            ],
+            "frequency": {
+                "challenges": 0,
+                "outcomes": 1
+            }
+        },
+        "j": {
             "challenges": [],
             "outcomes": [
                 "Class was very interesting. I liked the fact we are having an interactive one, where we are able to build and test code during class. A great part to review was the scope of variables. Always something to have in mind with JS",
@@ -739,18 +738,18 @@
             "javascript",
             "stack_frame",
             "couple",
-            "object",
             "iife",
-            "js"
+            "object",
+            "j"
         ],
         "outcome_topics": [
             "closure",
             "couple",
             "javascript",
-            "js",
+            "j",
             "stack_frame",
-            "object",
-            "iife"
+            "iife",
+            "object"
         ],
         "challenge_topics_freq": [
             8,
@@ -772,18 +771,6 @@
         ]
     },
     "4": {
-        "manager": {
-            "challenges": [
-                "Node package manager"
-            ],
-            "outcomes": [
-                "None of these were new topics but node package manager is super helpful in my day to day work life."
-            ],
-            "frequency": {
-                "challenges": 1,
-                "outcomes": 1
-            }
-        },
         "node_package": {
             "challenges": [
                 "Node package manager"
@@ -795,6 +782,18 @@
             "frequency": {
                 "challenges": 1,
                 "outcomes": 2
+            }
+        },
+        "manager": {
+            "challenges": [
+                "Node package manager"
+            ],
+            "outcomes": [
+                "None of these were new topics but node package manager is super helpful in my day to day work life."
+            ],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 1
             }
         },
         "nodejs": {
@@ -859,7 +858,7 @@
                 "outcomes": 1
             }
         },
-        "node_js": {
+        "micro_api": {
             "challenges": [],
             "outcomes": [
                 "Node.js, how you can create a micro API on your machine."
@@ -869,7 +868,7 @@
                 "outcomes": 1
             }
         },
-        "micro_api": {
+        "node_js": {
             "challenges": [],
             "outcomes": [
                 "Node.js, how you can create a micro API on your machine."
@@ -891,16 +890,16 @@
         },
         "__participants": 14,
         "challenge_topics": [
-            "manager",
             "node_package",
+            "manager",
             "nodejs",
             "ide",
             "version_control",
             "npm",
             "client",
             "javascript",
-            "node_js",
             "micro_api",
+            "node_js",
             "git"
         ],
         "outcome_topics": [
@@ -912,8 +911,8 @@
             "npm",
             "client",
             "javascript",
-            "node_js",
             "micro_api",
+            "node_js",
             "git"
         ],
         "challenge_topics_freq": [
@@ -957,6 +956,16 @@
                 "outcomes": 2
             }
         },
+        "wcf": {
+            "challenges": [
+                "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs"
+            ],
+            "outcomes": [],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 0
+            }
+        },
         "soap": {
             "challenges": [
                 "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs",
@@ -965,16 +974,6 @@
             "outcomes": [],
             "frequency": {
                 "challenges": 2,
-                "outcomes": 0
-            }
-        },
-        "wcf": {
-            "challenges": [
-                "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs"
-            ],
-            "outcomes": [],
-            "frequency": {
-                "challenges": 1,
                 "outcomes": 0
             }
         },
@@ -990,16 +989,6 @@
             "frequency": {
                 "challenges": 2,
                 "outcomes": 2
-            }
-        },
-        "chrome": {
-            "challenges": [
-                "I wishes to know the Chrome plugins and extensions you shared, but the link was not valid. I hope you can fix the link for the next time (Boomerang - SOAP & REST Client in slide 34)."
-            ],
-            "outcomes": [],
-            "frequency": {
-                "challenges": 1,
-                "outcomes": 0
             }
         },
         "rest": {
@@ -1022,24 +1011,34 @@
                 "outcomes": 0
             }
         },
+        "chrome": {
+            "challenges": [
+                "I wishes to know the Chrome plugins and extensions you shared, but the link was not valid. I hope you can fix the link for the next time (Boomerang - SOAP & REST Client in slide 34)."
+            ],
+            "outcomes": [],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 0
+            }
+        },
         "__participants": 8,
         "challenge_topics": [
             "soap",
             "web_service",
             "wsdl",
             "wcf",
-            "chrome",
             "rest",
-            "client"
+            "client",
+            "chrome"
         ],
         "outcome_topics": [
             "wsdl",
             "web_service",
-            "soap",
             "wcf",
-            "chrome",
+            "soap",
             "rest",
-            "client"
+            "client",
+            "chrome"
         ],
         "challenge_topics_freq": [
             2,

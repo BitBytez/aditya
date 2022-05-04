@@ -95,9 +95,10 @@ function Block(props){
 			<h3> {props.title} </h3>
 			
 			{topics.map((item) => {
+				var disp = props.content[item][props.name].length  === 0 ? 'none':'';
 				// console.log(props.content[item][props.name].length , props.content[item][props.name].length  === 0);
 				return(
-					<button style={buttonStyle} key={item} name={item} onClick={() => setCurrTopic(item)} disabled={props.content[item][props.name].length  === 0}> {item} </button>
+					<button style={{...buttonStyle, display:disp}} key={item} name={item} onClick={() => setCurrTopic(item)} disabled={props.content[item][props.name].length  === 0}> {item} </button>
 				)
 			})}
 			<h4> {currTopic} </h4>
