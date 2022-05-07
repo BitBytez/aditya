@@ -171,7 +171,7 @@
                 "outcomes": 1
             }
         },
-        "api": {
+        "object": {
             "challenges": [],
             "outcomes": [
                 "The presentation easily explained what web services are and the use cases. I like the detailed explanation of Simple Object Access Protocol (SOAP). When I tried to understand SOAP architecture in the past, it was not successful. However, your presentation's SOAP use scenario, components, and example helped me to fully understand what is SOAP architecture. Another interesting concept was that web services are a type of API (I did not aware of that before.)"
@@ -181,7 +181,7 @@
                 "outcomes": 1
             }
         },
-        "object": {
+        "api": {
             "challenges": [],
             "outcomes": [
                 "The presentation easily explained what web services are and the use cases. I like the detailed explanation of Simple Object Access Protocol (SOAP). When I tried to understand SOAP architecture in the past, it was not successful. However, your presentation's SOAP use scenario, components, and example helped me to fully understand what is SOAP architecture. Another interesting concept was that web services are a type of API (I did not aware of that before.)"
@@ -286,8 +286,8 @@
             "xml",
             "soap_envelope",
             "http",
-            "api",
             "object",
+            "api",
             "rest_service",
             "wcf",
             "websocket",
@@ -309,8 +309,8 @@
             "interface",
             "soap_envelope",
             "http",
-            "api",
             "object",
+            "api",
             "rest_service",
             "wcf",
             "websocket",
@@ -433,16 +433,6 @@
                 "outcomes": 2
             }
         },
-        "set": {
-            "challenges": [
-                "Set and Map Collection"
-            ],
-            "outcomes": [],
-            "frequency": {
-                "challenges": 1,
-                "outcomes": 0
-            }
-        },
         "map": {
             "challenges": [
                 "Set and Map Collection"
@@ -465,6 +455,16 @@
                 "outcomes": 0
             }
         },
+        "set": {
+            "challenges": [
+                "Set and Map Collection"
+            ],
+            "outcomes": [],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 0
+            }
+        },
         "closure": {
             "challenges": [
                 "Closures topic"
@@ -478,7 +478,7 @@
                 "outcomes": 2
             }
         },
-        "rest": {
+        "soap": {
             "challenges": [
                 "I struggled to understand why SOAP(complex, slow, less efficient, hard to implement) is being discussed when there is REST(popular, fast, efficient, and easy) but after doing little research I found that SOAP is more Secure and has a use case in financial transactions."
             ],
@@ -488,7 +488,7 @@
                 "outcomes": 0
             }
         },
-        "soap": {
+        "rest": {
             "challenges": [
                 "I struggled to understand why SOAP(complex, slow, less efficient, hard to implement) is being discussed when there is REST(popular, fast, efficient, and easy) but after doing little research I found that SOAP is more Secure and has a use case in financial transactions."
             ],
@@ -565,12 +565,12 @@
             "object",
             "json",
             "js",
-            "set",
             "map",
             "collection",
+            "set",
             "closure",
-            "rest",
             "soap",
+            "rest",
             "syntax",
             "dom",
             "ecmascript",
@@ -590,10 +590,10 @@
             "variable",
             "web_service",
             "json",
-            "set",
             "collection",
-            "rest",
+            "set",
             "soap",
+            "rest",
             "syntax"
         ],
         "challenge_topics_freq": [
@@ -772,6 +772,18 @@
         ]
     },
     "4": {
+        "manager": {
+            "challenges": [
+                "Node package manager"
+            ],
+            "outcomes": [
+                "None of these were new topics but node package manager is super helpful in my day to day work life."
+            ],
+            "frequency": {
+                "challenges": 1,
+                "outcomes": 1
+            }
+        },
         "node_package": {
             "challenges": [
                 "Node package manager"
@@ -783,18 +795,6 @@
             "frequency": {
                 "challenges": 1,
                 "outcomes": 2
-            }
-        },
-        "manager": {
-            "challenges": [
-                "Node package manager"
-            ],
-            "outcomes": [
-                "None of these were new topics but node package manager is super helpful in my day to day work life."
-            ],
-            "frequency": {
-                "challenges": 1,
-                "outcomes": 1
             }
         },
         "nodejs": {
@@ -809,7 +809,7 @@
                 "outcomes": 1
             }
         },
-        "version_control": {
+        "ide": {
             "challenges": [],
             "outcomes": [
                 "I did not find a new concept from the lecture since I used to use version control, IDE, npm, and node js."
@@ -819,7 +819,7 @@
                 "outcomes": 1
             }
         },
-        "ide": {
+        "version_control": {
             "challenges": [],
             "outcomes": [
                 "I did not find a new concept from the lecture since I used to use version control, IDE, npm, and node js."
@@ -891,11 +891,11 @@
         },
         "__participants": 14,
         "challenge_topics": [
-            "node_package",
             "manager",
+            "node_package",
             "nodejs",
-            "version_control",
             "ide",
+            "version_control",
             "npm",
             "client",
             "javascript",
@@ -907,8 +907,8 @@
             "node_package",
             "manager",
             "nodejs",
-            "version_control",
             "ide",
+            "version_control",
             "npm",
             "client",
             "javascript",
@@ -957,18 +957,15 @@
                 "outcomes": 2
             }
         },
-        "web_service": {
+        "soap": {
             "challenges": [
                 "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs",
-                "Creating the web service and all of its components"
+                "I wishes to know the Chrome plugins and extensions you shared, but the link was not valid. I hope you can fix the link for the next time (Boomerang - SOAP & REST Client in slide 34)."
             ],
-            "outcomes": [
-                "web service provider generation",
-                "The entire development of a web service provider"
-            ],
+            "outcomes": [],
             "frequency": {
                 "challenges": 2,
-                "outcomes": 2
+                "outcomes": 0
             }
         },
         "wcf": {
@@ -981,15 +978,18 @@
                 "outcomes": 0
             }
         },
-        "soap": {
+        "web_service": {
             "challenges": [
                 "None of it was challenging, I develop and maintain a WCF web service for work so I'm pretty familiar with SOAP and dealing with WSDLs",
-                "I wishes to know the Chrome plugins and extensions you shared, but the link was not valid. I hope you can fix the link for the next time (Boomerang - SOAP & REST Client in slide 34)."
+                "Creating the web service and all of its components"
             ],
-            "outcomes": [],
+            "outcomes": [
+                "web service provider generation",
+                "The entire development of a web service provider"
+            ],
             "frequency": {
                 "challenges": 2,
-                "outcomes": 0
+                "outcomes": 2
             }
         },
         "chrome": {
@@ -1024,8 +1024,8 @@
         },
         "__participants": 8,
         "challenge_topics": [
-            "web_service",
             "soap",
+            "web_service",
             "wsdl",
             "wcf",
             "chrome",
@@ -1035,8 +1035,8 @@
         "outcome_topics": [
             "wsdl",
             "web_service",
-            "wcf",
             "soap",
+            "wcf",
             "chrome",
             "rest",
             "client"

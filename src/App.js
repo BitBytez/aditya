@@ -3,14 +3,14 @@ import { useEffect, useState } from 'react';
 import data from './data.json';
 import './App.css';
 import Session from './components/Session';
-
+import UploadPage from './components/UploadPage';
 
 function App() {
 
   const sessions = Object.keys(data);
   const [sessId, setSessId] = useState(1);
   const [topics, setTopics] = useState(Object.keys(data[sessId]).filter(x => ! x.startsWith("__")));
-
+  // const [isUploading, setIsUploading] = useState(true);
   const handleButtonClick = (inc) => {
     setSessId((prev) => {
       setTopics(Object.keys(data[prev + inc]).filter(x => ! x.startsWith("__")));
@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div style={{display:"flex", flex:1, flexDirection:"column", marginLeft:100, marginTop: 20}} className="App">
+      <UploadPage />
       <Session sessId={sessId} 
         content={data[sessId]}
         participants={data[sessId]["__participants"]}
